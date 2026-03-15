@@ -1,0 +1,16 @@
+{
+  "name": "devtinder-backend",
+  "version": "1.0.0",
+  "description": "tinder for dev",
+  "license": "ISC",
+  "author": "Nidhi agarwal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
