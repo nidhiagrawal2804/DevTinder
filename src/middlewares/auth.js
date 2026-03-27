@@ -3,7 +3,7 @@ const User = require("../modals/user");
 
 const userAuth = async (req,res,next) => {
 
-    const token = req.cookies.token;
+    const token = req.cookies?.token;
 
     if(!token){
         return res.status(401).send("Unauthorized: No token provided.");
